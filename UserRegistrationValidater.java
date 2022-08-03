@@ -39,7 +39,7 @@ public class UserRegistrationValidater {
 		System.out.println(emailValidater("govindmaithil@gmail.com"));
 		System.out.println(emailValidater("govindmaithil@bridgelabz.co.in"));
 		System.out.println(phoneValidater("91 8602443526"));
-		System.out.println(passwordValidater("govin@12345"));
+		System.out.println(passwordValidater("govindma"));
 		System.out.println(passwordValidater("govin@123asd123"));
 	
 	}
