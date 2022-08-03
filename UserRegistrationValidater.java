@@ -7,7 +7,7 @@ public class UserRegistrationValidater {
 	private static final String Name_Pattern = "^[A-Z]{1}[a-z]{2,}$";
 	private static final String Email_Pattern = "^[a-zA-Z0-9.+_-]+[@][a-zA-Z0-9]+[.]co(m|.in)$";
 	private static final String Phone_Pattern = "^[0-9]{2}[ ][0-9]{10}";
-	private static final String Password_Pattern = "[a-zA-Z0-9]{8,40}";
+	private static final String Password_Pattern = "[a-zA-Z0-9](?=.*).{8,40}";
 	
 
 	public static boolean firstNameValidater(String firstName) {
@@ -43,6 +43,7 @@ public class UserRegistrationValidater {
 		System.out.println(passwordValidater("govinasd")); 
 		System.out.println(passwordValidater("govindmA")); 
 		System.out.println(passwordValidater("govindM123")); 
+		System.out.println(passwordValidater("govindM@=123")); 
 	
 	}
 }
